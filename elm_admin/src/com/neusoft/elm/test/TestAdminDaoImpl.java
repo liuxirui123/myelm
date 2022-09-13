@@ -9,10 +9,10 @@ import org.junit.Test;
 import com.neusoft.elm.util.DBUtil;
 
 
-public class TestAdmin {
+public class TestAdminDaoImpl {
 	
 	@Test
-	public void testQuery() {
+	public void TestgetAdminByNameByPass() {
 		
 		String sql = "select * from admin where adminName=? and password=?";//sql查询语句
 	    Connection con = null;//数据库连接
